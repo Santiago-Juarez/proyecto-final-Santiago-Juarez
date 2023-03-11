@@ -6,29 +6,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Categorias</title>
 
-    <link rel="stylesheet" href="../css/main.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/styles.css">
     <link rel="icon" href="../img/casco.png">
 
 </head>
 <body>
 
-    <header>
+    <header class="container-fluid ">
 
-        <h1 class="titulo">Rider Life</h1>
-
-        <nav>
-            <ul>
-                <li class="navegacion">    <a href="../index.html">Inicio</a>                  </li>
-                <li class="navegacion">    <a href="productos.html">Producto</a>       </li>
-                <li class="navegacion">    <a href="Categorias.html">Categorias</a>     </li>
-                <li class="navegacion">    <a href="Informacion.html">Informacion</a>    </li>
-                <li class="navegacion">    <a href="Contacto.html">Contacto</a>       </li>
-            </ul>
+        <div class="row text-bg-secondary">
+            
+            <h1 class="d-flex justify-content-center">Rider Life</h1>
+    
+        </div>
+            
+        <nav class="row col-xl-8 col-lg-8 col-md-12 col-sm-12 col-12 ">
+                <ul class="nav h4 pb-2 mb-4 text-danger border-bottom border-danger">
+                    <li class="nav-item col-xl-2 col-lg-2 col-md-2 col-sm-12 col-12">   
+                        <a href="../index.html" class="nav-link active link-dark" >Inicio</a>           </li>
+                    <li class="nav-item col-xl-2 col-lg-2 col-md-2 col-sm-12 col-12">    
+                        <a href="productos.html" class="nav-link active link-dark" >Producto</a>       </li>
+                    <li class="nav-item col-xl-2 col-lg-2 col-md-2 col-sm-12 col-12">    
+                        <a href="Categorias.html" class="nav-link active link-dark" >Categorias</a>     </li>
+                    <li class="nav-item col-xl-2 col-lg-2 col-md-2 col-sm-12 col-12">   
+                        <a href="Informacion.html" class="nav-link active link-dark" >Informacion</a>   </li>
+                    <li class="nav-item col-xl-2 col-lg-2 col-md-2 col-sm-12 col-12">    
+                        <a href="Contacto.html" class="nav-link active link-dark" >Contacto</a>         </li>
+                </ul>
         </nav>
+        
 
     </header>
     
-    <div id="presentacion">
+    <div class="text-center explicacion" >
 
         <h3>Tipos de motos</h3>
         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae fugiat nulla accusamus assumenda voluptatem consectetur sapiente, tempora sequi blanditiis exercitationem explicabo quaerat? Consectetur temporibus recusandae voluptas, necessitatibus non iste quod.</p>
@@ -36,31 +47,50 @@
     </div>
 
 
-    <article>
+    <article class="container-fluid">
+    <div class="row fondo-de-categorias-1">   
 
-        <div class="articulo"><img src="../img/moto-naked.jpg" alt="moto-naked"></div>
-        <div id="naked-text">
+        <div class="col-md-6 categorias">
+            <img src="../img/moto-naked.jpg" alt="moto-naked"class="moto-img">
+        </div>
+        <div class="col-md-6" id="naked-texto">
 
             <h2>NAKED</h2>
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Explicabo repellendus enim temporibus nihil nesciunt a tempore beatae corporis. Incidunt necessitatibus vero expedita magni nesciunt quaerat illo quibusdam temporibus eum possimus.</p>
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus commodi magnam aliquid mollitia, beatae delectus praesentium cupiditate ipsa velit quod suscipit blanditiis quae. Cum, fugiat? Repudiandae saepe aut tempore cumque.</p>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur voluptas inventore error molestias excepturi amet voluptate ipsa soluta tempora vel iusto non tempore aut qui adipisci culpa, doloribus nostrum delectus?</p>
         </div>
+
+    </div>
     </article>
 
-    <article>
+    <br>
 
-        <div class="articulo2"><img src="../img/enduro.jpg" alt="enduro"></div>
-        <div id="enduro-text">
+    <article class="container-fluid">
+    <div class="row fondo-de-categorias-2">
+
+        <div class="col-md-6 " id="enduro-texto">
             <h2>Enduro</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore blanditiis iusto animi fugiat aut ducimus voluptate. Facilis perspiciatis neque vel quas porro suscipit debitis iure! Iusto deserunt quia libero magnam.</p>
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus commodi magnam aliquid mollitia, beatae delectus praesentium cupiditate ipsa velit quod suscipit blanditiis quae. Cum, fugiat? Repudiandae saepe aut tempore cumque.</p>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur voluptas inventore error molestias excepturi amet voluptate ipsa soluta tempora vel iusto non tempore aut qui adipisci culpa, doloribus nostrum delectus?</p>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur voluptas inventore error molestias excepturi amet voluptate ipsa soluta tempora vel iusto non tempore aut qui adipisci culpa, doloribus nostrum delectus?</p>
         </div>
-        <h3 id="proxi">PROXIMAMENTE...</h3>
 
+        <div class="col-md-6 categorias">
+            <img src="../img/enduro.jpg" alt="enduro" class="moto-img">
+        </div>
+       
+    </div>
     </article>
+
+
+<div>
+
+    <h3 class="text-center p-3 m-3">PROXIMAMENTE...</h3>
+
+</div>
+
 
     <div id="final-de-la-pagina">
         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium laboriosam error minima? Vel corporis sunt aspernatur sapiente iusto obcaecati quasi sed reprehenderit id nostrum, ipsum praesentium. Repudiandae sit sed veniam.</p>
