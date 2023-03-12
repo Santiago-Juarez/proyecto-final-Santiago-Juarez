@@ -5,7 +5,6 @@
     font-family: 'Roboto Condensed', sans-serif ;
 }
 
-
 /* elementos que se pueden usar para todas las paginas */
 
 #final-de-la-pagina{
@@ -19,18 +18,46 @@
     background-image: radial-gradient(rgba(151, 151, 151, 0.329),rgba(255, 255, 255, 0.349));
 }
 
+.scala-nav{
+    background: white;
+    transition: transform 100ms;
+    &:hover{
+        transform: scale(110%,120%);
+        background-image: linear-gradient(360deg , rgba(255, 33, 33, 0.801), white);
+    }
+}
+
 /* elementos para la pagina de inicio */
 
 .articulo-estandard{
-    margin-top: 1rem;
-    background-image: linear-gradient(65deg, rgba(114, 114, 114, 0.822), rgba(221, 221, 221, 0.459));
+    margin-top: 1rem; background-image: linear-gradient(65deg, rgba(114, 114, 114, 0.822), rgba(221, 221, 221, 0.459));
 }
+
+/* elementos para la pagina de productos*/
+
+
 
 /* elementos para la pagina de categorias */
 
 .fondo-de-categorias-1{
     background-image: linear-gradient(45deg, rgb(255, 115, 0), rgb(0, 0, 0));
     padding: 2rem 1rem;
+    animation-name: movimiento;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+    animation-timing-function:ease-in;
+        @keyframes movimiento {
+            10%{background-image: linear-gradient(55deg, rgb(255, 115, 0), rgb(0, 0, 0));}
+            20%{background-image: linear-gradient(65deg, rgb(255, 115, 0), rgb(0, 0, 0));}
+            30%{background-image: linear-gradient(55deg, rgb(255, 115, 0), rgb(0, 0, 0));}
+            40%{background-image: linear-gradient(40deg, rgb(255, 115, 0), rgb(0, 0, 0));}
+            50%{background-image: linear-gradient(30deg, rgb(255, 115, 0), rgb(0, 0, 0));}
+            60%{background-image: linear-gradient(20deg, rgb(255, 115, 0), rgb(0, 0, 0));}
+            80%{background-image: linear-gradient(25deg, rgb(255, 115, 0), rgb(0, 0, 0));}
+            90%{background-image: linear-gradient(35deg, rgb(255, 115, 0), rgb(0, 0, 0));}
+            100%{background-image: linear-gradient(45deg, rgb(255, 115, 0), rgb(0, 0, 0));}
+
+        }
 }
 .categorias{
     background: rgb(218, 218, 218);
