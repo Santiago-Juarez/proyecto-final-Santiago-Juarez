@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap');
 
+@import "./herramientas/variables-y-maps";
+@import "./herramientas/mixins";
+@import "./paginas/index";
 *{
     text-decoration: none !important;
     font-family: 'Roboto Condensed', sans-serif ;
@@ -15,7 +18,7 @@
 .explicacion{
     padding: 1rem;
     margin: 5em 0;
-    background-image: radial-gradient(rgba(151, 151, 151, 0.329),rgba(255, 255, 255, 0.349));
+    background-image: radial-gradient(circle, rgba(151, 151, 151, 0.671),rgba(209, 209, 209, 0.425));
 }
 
 .scala-nav{
@@ -27,15 +30,6 @@
     }
 }
 
-
-
-/* elementos para la pagina de inicio */
-
-.articulo-estandard{
-    margin-top: 1rem; background-image: linear-gradient(65deg, rgba(114, 114, 114, 0.822), rgba(221, 221, 221, 0.459));
-}
-
-/* elementos para la pagina de productos*/
 
 
 
@@ -69,12 +63,12 @@
 }
 
 #naked-texto{
-    color: rgb(255, 136, 0);
+    color: rgb(255, 255, 255);
 }
 .fondo-de-categorias-2{
     background-image: linear-gradient(220deg, rgb(110, 110, 255), rgb(25, 25, 119),black);
     padding: 2rem 1rem;
 }
 #enduro-texto{
-    color:blue;
+    color:rgb(255, 255, 255);
 }
