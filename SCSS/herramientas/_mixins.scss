@@ -1,3 +1,9 @@
 @mixin grid-container {
     display: grid;
 }
+
+@mixin flex-rows{
+    display: flex;
+    flex-direction: row;
+
+}

@@ -1,0 +1,65 @@
+
+.fondo-de-categorias-1{
+    background-image: linear-gradient(45deg, $color-categoria-naked, rgb(0, 0, 0));
+    padding: calc($margen-medida*2) $margen-medida ;
+    animation-name: movimiento;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+    animation-timing-function:ease-in;
+        @keyframes movimiento {
+            10%{background-image: linear-gradient(55deg,  $color-categoria-naked, rgb(0, 0, 0));}
+            20%{background-image: linear-gradient(65deg,  $color-categoria-naked, rgb(0, 0, 0));}
+            30%{background-image: linear-gradient(55deg,  $color-categoria-naked, rgb(0, 0, 0));}
+            40%{background-image: linear-gradient(40deg,  $color-categoria-naked, rgb(0, 0, 0));}
+            50%{background-image: linear-gradient(30deg,  $color-categoria-naked, rgb(0, 0, 0));}
+            60%{background-image: linear-gradient(20deg,  $color-categoria-naked, rgb(0, 0, 0));}
+            80%{background-image: linear-gradient(25deg,  $color-categoria-naked, rgb(0, 0, 0));}
+            90%{background-image: linear-gradient(35deg,  $color-categoria-naked, rgb(0, 0, 0));}
+            100%{background-image: linear-gradient(45deg, $color-categoria-naked, rgb(0, 0, 0));}
+
+        }
+}
+.categorias{
+    background: rgb(218, 218, 218);
+    padding: $margen-medida;
+
+    .moto-img{
+        width: 100%;
+    }
+}
+
+
+#naked-texto{
+    color: rgb(255, 255, 255);
+}
+.fondo-de-categorias-2{
+    background-image: linear-gradient(220deg, $color-categoria-enduro, $color-categoria-enduro2,black);
+    padding: calc($margen-medida*2) $margen-medida;
+    animation-name: movimiento-enduro;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+    animation-timing-function:ease-in;
+        @keyframes movimiento-enduro {
+            10%{background-image: linear-gradient(225deg, $color-categoria-enduro, $color-categoria-enduro2 rgb(0, 0, 0));}
+            20%{background-image: linear-gradient(230deg, $color-categoria-enduro, $color-categoria-enduro2 rgb(0, 0, 0));}
+            30%{background-image: linear-gradient(235deg, $color-categoria-enduro, $color-categoria-enduro2 rgb(0, 0, 0));}
+            40%{background-image: linear-gradient(240deg, $color-categoria-enduro, $color-categoria-enduro2 rgb(0, 0, 0));}
+            50%{background-image: linear-gradient(230deg, $color-categoria-enduro, $color-categoria-enduro2 rgb(0, 0, 0));}
+            60%{background-image: linear-gradient(220deg, $color-categoria-enduro, $color-categoria-enduro2 rgb(0, 0, 0));}
+            80%{background-image: linear-gradient(215deg, $color-categoria-enduro, $color-categoria-enduro2 rgb(0, 0, 0));}
+            90%{background-image: linear-gradient(220deg, $color-categoria-enduro, $color-categoria-enduro2 rgb(0, 0, 0));}
+            100%{background-image: linear-gradient(225deg,$color-categoria-enduro, $color-categoria-enduro2 rgb(0, 0, 0));}
+
+        }
+}
+#enduro-texto{
+    color:rgb(255, 255, 255);
+}
+
+@media(min-width:768px) and (max-width:1175px){
+
+    .categorias {
+        height:50%;
+    }
+
+}

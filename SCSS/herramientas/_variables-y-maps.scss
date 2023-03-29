@@ -2,4 +2,12 @@ $articulo-index:(
     imagen:imagen,
     texto-1:texto-1,
     texto-2:texto-2
-)
+);
+
+$margen-medida: 1rem;
+
+// colores
+$color-primario:rgb(252, 65, 18);
+$color-categoria-naked:rgb(255, 115, 0);
+$color-categoria-enduro:rgb(110, 110, 255);
+$color-categoria-enduro2:rgb(25, 25, 119);
